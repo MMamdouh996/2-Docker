@@ -13,3 +13,6 @@ docker build -t nginx-docker-image .
 docker run -d -p 1999:1999 nginx-docker-image
 ```
 5. now you can access the webpage on the nginx server working on the docker container by opening http://localhost:1999 or http://0.0.0.0:1999/
+6. this should be somthing like that
+
+![homepage](HomePage.png)
